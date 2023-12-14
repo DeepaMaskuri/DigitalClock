@@ -1,0 +1,113 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-size: 100% 100vh;
+    position: center;
+    background-repeat: no-repeat;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height:100vh;
+
+}
+#container{
+    width: 50%;
+    height: 430px;
+    background-color: rgba(137, 134, 134, 0.49);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#Time{
+    color:white;
+    font-size: 80px;
+    text-shadow: 5px 5px 5px black;
+    letter-spacing: 10px;
+    
+}
+#Date,#Day{
+    color:whitesmoke;
+    font-size: 80px;
+    text-shadow: 5px 5px 5px black;
+    letter-spacing: 10px;
+}
+#Sec{
+    position: absolute;
+    z-index: -1;
+    font-size: 240px;
+    color: antiquewhite;
+    text-shadow: 5px 5px 5px black;
+}
+h1{
+    color: white;
+}
+#alarmWindow{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 30px;
+    background-image: linear-gradient(25deg,black,gray,gray);
+    display: none;
+    position: absolute;
+}
+#hr{
+    width: 50px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    background-color:rgb(57, 54, 54);
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+#min{
+    width: 50px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    background-color:rgb(57, 54, 54);
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+#meridian{
+    width: 50px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    background-color:rgb(57, 54, 54);
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+.submit{
+    width: 80px;
+    height: 25px;
+    border-radius: 5px;
+   
+    box-shadow: 2px 2px 5px black;
+    background-color: transparent;
+    font-size: 14px;
+    font-weight: bold;
+}  
+
+#close{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    position:absolute;
+    cursor: pointer;
+    top:5px;
+    right:8px;
+}
